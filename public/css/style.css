@@ -38,15 +38,17 @@ h1 {
 
 input[type="submit"] {
   width: 50%;
-  height: 10%;
+  height: 20%;
   padding: 10%;
-  background-color: #286da4;
+  background-color: #6898bf;
+  margin: auto;
   text-align: center;
-  font-size: 80%;
+  font-size: 90%;
   font-family: bebas;
-  text-decoration-color: #4B4B4B;
+  color: #4B4B4B;
   border-style: solid;
-  border-color: #77c9d4
+  border-width: thick;
+  border-color: #a5a5af
 }
 
 /*</style>*/
