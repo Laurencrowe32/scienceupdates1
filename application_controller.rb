@@ -6,4 +6,7 @@ get '/' do
   erb :index
   #run bundle install and then shotgun
 end
-end 
+post "/middlepage" do
+  erb :middlepage
+end
+end

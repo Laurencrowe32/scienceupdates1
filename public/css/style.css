@@ -62,7 +62,7 @@ input[type="submit"] {
 }
 input[value="Enter Site"] {
   width: 40%;
-  height: 2em;
+  height: 10%;
   padding: 10%;
   background-color: #6898bf;
   margin: auto;
