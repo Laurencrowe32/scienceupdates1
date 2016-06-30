@@ -74,5 +74,24 @@ input[value="Enter Site"] {
   border-width: thick;
   border-color: #a5a5af
 }
+#last_title {
+  color: #4B4B4B;
+  font-size: 600%;
+  position: fixed;
+  float: center;
+  height: 19%;
+  width: 100%;
+  left: 0%;
+  top: -25%;
+  z-index: 100;
 
+}
+.box2 {
+  background-color: #a5a5af;
+  position: fixed;
+  height: 30%;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
 /*</style>*/

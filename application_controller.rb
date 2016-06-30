@@ -12,4 +12,7 @@ post "/middlepage" do
   erb :middlepage
 end
 
+get '/test' do
+  erb :lastpage
+end
 end
