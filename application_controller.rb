@@ -9,9 +9,13 @@ get '/' do
 end
 
 post '/results' do
-  print params
-  finding_links(params[:topics])
+  # print params.keys # gives us an array of all the subjects user selected
+  finding_links(params.keys)
 #erb:
 end
 
+
+get "/list" do
+  erb :middlepage
+end
 end

@@ -2,6 +2,7 @@
 
 
 def finding_links(subjects)
+
   @news = {
     astronomy: [{name: "Astronomy", link: "http://www.astronomy.com/news"},{name: "Astronomy Now", link: "https://astronomynow.com/category/news/"}, {name: "Scientific American", link: "http://www.scientificamerican.com/space/"}],
     physics: [{name: "Physics World", link: "http://physicsworld.com/cws/channel/news"}, {name: "Phys", link: "http://phys.org/physics-news/"}, {name: "Scientific American", link: "http://www.scientificamerican.com/physics/"}],
@@ -11,13 +12,17 @@ def finding_links(subjects)
     computer_science: [{name: "Science Daily", link: "https://www.sciencedaily.com/news/computers_math/computer_science/"}, {name: "Phys", link: "http://phys.org/technology-news/computer-sciences/"}, {name: "Scientific American", link: "http://www.scientificamerican.com/computing/"}],
     ecology: [{name: "Science Daily", link: "https://www.sciencedaily.com/news/earth_climate/ecology/"}, {name: "Ecology", link: "http://www.ecology.com/ecology-today/et-news/"}, {name: "Scientific American", link: "http://www.scientificamerican.com/ecology/"}]
   }
-# subjects.each do |subject|
 
-print @news[subjects.downcase.to_sym]
-  # done.each do |finish|
-  #   puts finish[:link]
-  # end
-# end
+
+ subjects.each do |subject|
+
+   done = @news[subject.to_sym] #return the hash of one the subject
+   @thing = []
+   done.each do |finish|
+     @thing.push(finish[:link])
+    end
+ end
+ return @thing
 end
 
 def subject
