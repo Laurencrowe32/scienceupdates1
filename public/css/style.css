@@ -1,4 +1,14 @@
 /*<style type="text/css">*/
+#first_line {
+  text-align: center;
+  font-size: 600%;
+  color: #4B4B4B;
+}
+#second_line {
+  text-align: center;
+  font-size: 600%;
+  color: #4B4B4B;
+}
 body {
   text-align: center;
   font-family: bebas;
@@ -44,6 +54,20 @@ input[type="submit"] {
   margin: auto;
   text-align: center;
   font-size: 90%;
+  font-family: bebas;
+  color: #4B4B4B;
+  border-style: solid;
+  border-width: thick;
+  border-color: #a5a5af
+}
+input[value="Enter Site"] {
+  width: 40%;
+  height: 2em;
+  padding: 10%;
+  background-color: #6898bf;
+  margin: auto;
+  text-align: justify;
+  font-size: 300%;
   font-family: bebas;
   color: #4B4B4B;
   border-style: solid;
