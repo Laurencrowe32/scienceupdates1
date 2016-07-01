@@ -13,11 +13,11 @@ def finding_links(subjects)
     ecology: [{name: "Science Daily", link: "https://www.sciencedaily.com/news/earth_climate/ecology/"}, {name: "Ecology", link: "http://www.ecology.com/ecology-today/et-news/"}, {name: "Scientific American", link: "http://www.scientificamerican.com/ecology/"}]
   }
 
-
+@thing = []
  subjects.each do |subject|
-
+@thing.push(subject)
    done = @news[subject.to_sym] #return the hash of one the subject
-   @thing = []
+
    done.each do |finish|
      @thing.push(finish[:link])
     end

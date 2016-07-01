@@ -7,6 +7,24 @@
   </head>
   <body style= background-color:#57bc90>
 <h5 id= "last_title">We recommend these sites:</h5>
+<br><br><br><br><br><br><br><br>
 <div class="box2"></div>
+<br>
+<br>
+<br>
+<br>
+  <%  @finding_links.each do |link| %>
+  <br>
+  <% if link.include? "http"%>
+    <a href = "<%= link %>">  <h2><%= link %></h2></a>
+    <% else %>
+      <% if link.include?("_") %>
+      <h2>  <%= link.gsub("_", " ")%> </h2>
+        <% else %>
+        <h2>  <%= link %> </h2>
+      <% end %>
+  <% end %>
+<% end %>
+
   </body>
 </html>

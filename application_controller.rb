@@ -11,14 +11,14 @@ end
 
 post '/results' do
   # print params.keys # gives us an array of all the subjects user selected
-  finding_links(params.keys)
-#erb:
+  @finding_links = finding_links(params.keys)
+erb :lastpage
 end
 
 
 get "/list" do
   erb :middlepage
-
+end
 post "/middlepage" do
   erb :middlepage
 

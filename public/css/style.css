@@ -1,25 +1,33 @@
 /*<style type="text/css">*/
 #first_line {
   text-align: center;
-  font-size: 600%;
+  font-size: 8em;
   color: #4B4B4B;
 }
 #second_line {
   text-align: center;
-  font-size: 600%;
+  font-size: 8em;
   color: #4B4B4B;
 }
 body {
   text-align: center;
   font-family: bebas;
+  color: #4B4B4B;
+  background-color: #57bc90;
 }
+p{
+  font-size: 2em
+}
+
+
 h1 {
   color: #4B4B4B;
-  font-size: 400%;
+  font-size: 5em;
   position: fixed;
   float: center;
-  height: 19%;
+  height: auto;
   width: 100%;
+  overflow: auto;
   left: 0%;
   top: -5%;
   z-index: 100;
@@ -40,7 +48,7 @@ h1 {
 .box {
   background-color: #a5a5af;
   position: fixed;
-  height: 21%;
+  height: 15%;
   width: 100%;
   left: 0%;
   top: 0%;
@@ -62,12 +70,13 @@ input[type="submit"] {
 }
 input[value="Enter Site"] {
   width: 40%;
-  height: 10%;
-  padding: 10%;
+  height: 30%;
+  padding: 0%;
   background-color: #6898bf;
   margin: auto;
-  text-align: justify;
-  font-size: 300%;
+  text-align:center;
+  align-items: center;
+  font-size: 400%;
   font-family: bebas;
   color: #4B4B4B;
   border-style: solid;
@@ -82,16 +91,17 @@ input[value="Enter Site"] {
   height: 19%;
   width: 100%;
   left: 0%;
-  top: -25%;
+  top: -15%;
   z-index: 100;
 
 }
 .box2 {
   background-color: #a5a5af;
   position: fixed;
-  height: 30%;
+  height: 20%;
   width: 100%;
   left: 0%;
   top: 0%;
 }
+
 /*</style>*/
